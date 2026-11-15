@@ -71,10 +71,10 @@
 
         Mouse {
             bindings = <
-&trans  &kp BSPC   &trans     &trans    &trans    &trans       &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans       &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans     &trans    &trans    &trans       &trans  &trans  &trans  &trans  &trans  &trans
-                              &trans    &trans    &kp SPACE    &trans  &trans  &trans
+&trans  &kp BSPC   &trans     &trans    &trans    &trans       &trans  &trans          &trans          &trans           &trans  &trans
+&trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans       &trans  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &trans  &trans
+&trans  &trans     &trans     &trans    &trans    &trans       &trans  &trans          &kp DOWN_ARROW  &trans           &trans  &trans
+                              &trans    &trans    &kp SPACE    &trans  &trans          &trans
             >;
         };
 
