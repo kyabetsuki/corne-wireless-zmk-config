@@ -26,11 +26,6 @@
             bindings = <&kp CAPSLOCK>;
             key-positions = <12 23>;
         };
-
-        Capsword {
-            bindings = <&caps_word>;
-            key-positions = <38 39>;
-        };
     };
 
     keymap {
