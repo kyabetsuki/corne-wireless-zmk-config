@@ -15,8 +15,6 @@ Any changes shown here will not be committed to your repository until you click 
     flavor = "tap-preferred";
 };
 
-&mmv { acceleration-exponent = <0>; };
-
 / {
     combos {
         compatible = "zmk,combos";
