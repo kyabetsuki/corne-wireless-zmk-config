@@ -15,7 +15,7 @@ Any changes shown here will not be committed to your repository until you click 
     flavor = "tap-preferred";
 };
 
-/ {
+{
     combos {
         compatible = "zmk,combos";
 
